@@ -7,3 +7,15 @@
 .contact-links a{display:flex;flex-direction:column;gap:.3rem;padding:1rem 1.1rem;border:1px solid rgba(125,255,190,.22);border-radius:12px;background:rgba(255,255,255,.035);color:inherit;text-decoration:none;overflow-wrap:anywhere}
 .contact-links a:hover,.contact-links a:focus-visible{border-color:#65efb0;background:rgba(101,239,176,.07)}
 .contact-links strong{color:#65efb0}
+
+/* Existing repository artwork */
+.brand-logo{width:44px;height:44px;object-fit:contain;filter:drop-shadow(0 0 9px #a4ff9a55)}
+.hero-logo{width:82%;height:82%;object-fit:contain;filter:drop-shadow(0 0 26px #a4ff9a65);transform:rotate(20deg)}
+.project-symbol:has(.hoodrat-logo){height:200px;overflow:hidden;letter-spacing:normal}
+.hoodrat-logo{height:100%;width:100%;object-fit:contain;filter:drop-shadow(0 0 18px #b4ff5b35)}
+@media(max-width:800px){.hero-logo{width:76%;height:76%}}
+
+/* HOODRAT official links */
+.hoodrat-links{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+.hoodrat-links a{display:inline-flex;align-items:center;padding:10px 14px;border:1px solid #b4ff5b;border-radius:8px;color:#b4ff5b;text-decoration:none;font-size:14px;font-weight:700;transition:background .2s}
+.hoodrat-links a:hover,.hoodrat-links a:focus-visible{background:rgba(180,255,91,.13)}
